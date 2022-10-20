@@ -1,0 +1,3 @@
+filename,model_index,val_sparse_categorical_accuracy
+../../training/mnist/FMNIST/MLP_model_comps_16_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_0_dense-size_256_099.h5,98,0.65
+../../training/mnist/FMNIST/MLP_model_comps_319_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_0_dense-size_256_064.h5,63,0.82

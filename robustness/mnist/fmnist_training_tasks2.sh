@@ -1,0 +1,7 @@
+#python main.py --dataset FMNIST  --fname ../../training/mnist/FMNIST/MLP_model_comps_80_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_1_dense-size_256_086.h5 --trials 10 --steps 40 --eps 0.2 --norm linf --gpu 0 
+#python main.py --dataset FMNIST  --fname ../../training/mnist/FMNIST/MLP_model_comps_80_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_1_dense-size_256_086.h5 --trials 10 --steps 40 --eps 0.3 --norm linf --gpu 0  | tee -a fmnist_training_output.csv &
+#python main.py --dataset FMNIST  --fname ../../training/mnist/FMNIST/MLP_model_comps_80_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_1_dense-size_256_086.h5 --trials 10 --steps 100 --eps 1.0 --norm l2 --gpu 0 
+#python main.py --dataset FMNIST  --fname ../../training/mnist/FMNIST/MLP_model_comps_80_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_1_dense-size_256_086.h5 --trials 10 --steps 1000 --eps 2.0 --norm l2 --attack ba --gpu 0 
+#python main.py --dataset FMNIST  --fname ../../training/mnist/FMNIST/MLP_model_comps_80_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_1_dense-size_256_086.h5 --trials 10 --steps 100 --eps 2.0 --norm l2 --attack bba --gpu 0 
+python main.py --dataset FMNIST  --fname ../../training/mnist/FMNIST/MLP_model_comps_80_dataset_FMNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_1_dense-size_256_086.h5 --trials 10 --steps 100 --eps 3.0 --norm l2 --gpu 0 
+read 

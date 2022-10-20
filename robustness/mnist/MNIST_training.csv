@@ -1,0 +1,3 @@
+filename,model_index,val_sparse_categorical_accuracy
+../../training/mnist/MNIST/MLP_model_comps_458_dataset_MNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_0_dense-size_256_099.h5,98,0.66
+../../training/mnist/MNIST/MLP_model_comps_60_dataset_MNIST_method_svd_v2_1_normalized1_0_normalized2_0_freezed_1_denses_0_dense-size_256_098.h5,97,0.28
